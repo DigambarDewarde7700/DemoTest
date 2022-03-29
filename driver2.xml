@@ -1,0 +1,24 @@
+<suite name="Include Exclude Relationship Ebay Sanity Test Suite">
+
+	<test name="Include Exclude Relationship Release 2022.5 sanity Testing">
+	
+		<classes>
+		
+			<class name="com.mavenproject.qa.mavenproject.Ebay_Sanity"/>
+			
+				<methods>
+				
+				<exclude name = "empty_Search_test_softassert"></exclude>
+				
+				</methods>		
+								
+				<class name="com.mavenproject.qa.mavenproject.Ebay_Sanity1"/>	
+				
+				<methods>
+				
+				<include name = "empty_Search_test"></include>
+				
+				</methods>		
+		</classes>
+	</test>
+</suite>

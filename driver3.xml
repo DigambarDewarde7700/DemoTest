@@ -1,0 +1,21 @@
+<suite name="Before and After Test Demo">
+
+	<test name="Before and After Test Annotation">
+	
+		<classes>
+		
+			<class name="com.mavenproject.qa.mavenproject.Demo_Test"/>
+			
+			</classes>
+			
+				</test>
+				
+				<test name="General Testing">
+				
+				<classes>
+			
+			<class name="com.mavenproject.qa.mavenproject.Ebay_Sanity1"/>	
+						
+		</classes>
+	</test>
+</suite>
